@@ -17,6 +17,10 @@
   background: linear-gradient(to left, #434343, #000000); 
 }
 
+.project-grid {
+  display: flex;
+}
+
 .avatar-img {
   height: 350px;
   padding-top: 5em;
