@@ -1,38 +1,66 @@
-.App {
+.header-color {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.landing-grid {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drawer-color {
+  background: #000000;  
+  background: -webkit-linear-gradient(to left, #434343, #000000); 
+  background: linear-gradient(to left, #434343, #000000); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-img {
+  height: 350px;
+  padding-top: 5em;
+  opacity: .6;
+  border-radius: 45%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.avatar-img-text {
+  background: #000000;  
+  background: -webkit-linear-gradient(to left, #434343, #000000); 
+  background: linear-gradient(to left, #434343, #000000);
+  opacity: .7;
+  width: 77%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.avatar-img-text h1 {
+  font-size: 66px;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+.avatar-img-text hr {
+  border-top: 5px, dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.avatar-img-text p {
+  color: antiquewhite;
+  width: 90%;
+  margin: auto;
+}
+
+.social-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-links a {
+  color: antiquewhite;
+  font-size: 5em;
+  padding: 8px
 }
