@@ -1,3 +1,5 @@
+/* Landing page css */
+
 .header-color {
   background: #000000;
   background: -webkit-linear-gradient(to right, #434343, #000000);
@@ -67,4 +69,53 @@
   color: antiquewhite;
   font-size: 5em;
   padding: 8px
+}
+
+/* Contact me page css */
+.contact-body {
+  margin: auto;
+  background: #434343;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: #000000;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 30px;
+  padding-right: 5rem;
+}
+
+/* Resume page css */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
 }
