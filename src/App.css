@@ -119,3 +119,62 @@
   color: white;
   padding: 2em;
 }
+
+/* About me css*/
+.about-back {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.about-left {
+  color: white;
+  padding-left: 4em;
+  padding-top: 5em;
+}
+
+.about-right {
+  color: white;
+  text-align: center;
+  padding-top: 5em;
+}
+
+.about-right hr {
+  border-top: 2px dotted darkgrey;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.ei-kuva {
+  max-height: 500px;
+  width: auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+/* Media querys*/
+
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}

@@ -19,13 +19,16 @@ class LandingPage extends Component {
                         </div>  
                         <div className="social-links">
                             {/* Linkedin, Facebook, Github, Instagram links */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/jukka-juntunen" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin" aria-hidden="true" />
                             </a>
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="http://facebook.com/johwilde" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-facebook" aria-hidden="true" />
                             </a>
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.instagram.com/johnnyjii" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-instagram" aria-hidden="true" />
+                            </a>
+                            <a href="http://wwww.github.com/Jukka-Jii" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github" aria-hidden="true" />
                             </a>
                         </div>
