@@ -159,9 +159,15 @@
   background: #1a2a6c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
+.instaFeed {
+  max-height: 500px;
+  width: auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
 
 /* Media querys*/
 

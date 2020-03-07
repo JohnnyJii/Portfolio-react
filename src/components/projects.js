@@ -27,16 +27,20 @@ class Projects extends Component {
                 )
             } else if (this.state.activeTab === 1) {
                 return (
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle className="instaCard" style={{color: '#fff', height: '176px'}}>Instagram</CardTitle>
-                            <CardText>Lorem ipsum lällällää</CardText>
-                                <CardActions border>
-                                    <Button colored>Instagram</Button>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                    </Card>
+                    <div className="projects-insta">
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle className="instaCard" style={{color: '#fff', height: '176px' }}>
+                                Instagram
+                            </CardTitle>
+                                <CardText>Lorem ipsum lällällää</CardText>
+                                    <CardActions border>
+                                        <Button colored>Instagram</Button>
+                                    </CardActions>
+                                    <CardMenu style={{color: '#fff'}}>
+                                        <IconButton name="share" />
+                                    </CardMenu>
+                        </Card>
+                    </div>
                 )
             } else if (this.state.activeTab === 2) {
                 return (

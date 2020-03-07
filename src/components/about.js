@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import InstagramEmbed from 'react-instagram-embed'
 import Ei from '../img/ei.jpg'
 
 
@@ -38,11 +39,18 @@ class About extends Component {
                             alt="testikuva"
                             />
                         <hr />
-                        <img 
-                            src={Ei}
-                            className="ei-kuva"
-                            alt="testikuva"
-                            />
+                        <InstagramEmbed className="instaFeed"
+                           url='https://www.instagram.com/p/B9ZOemYl_yw/'
+                           maxWidth={320}
+                           hideCaption={true}
+                           containerTagName='div'
+                           protocol=''
+                           injectScript
+                           onLoading={() => {}}
+                           onSuccess={() => {}}
+                           onAfterRender={() => {}}
+                           onFailure={() => {}}
+                        />
                     </Cell>
                 </Grid>
             </div>
