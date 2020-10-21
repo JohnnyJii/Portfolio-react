@@ -21,13 +21,8 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Jukka Juntunen</h2>
                         <h4 style={{color: 'grey'}}>Web developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-                            excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui 
-                            officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
-                            rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est 
-                            eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
-                            omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                            <p>Currently working on my thesis and looking for new opportunities.
+                            </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} /> 
                         <h5>Address</h5>
                         <p>Krouvikalliontie 3 p 30, 02700 Kauniainen</p>   
@@ -81,36 +76,28 @@ class Resume extends Component {
                         <h2>Skills</h2>
                             <Skills 
                                 skill="HTML/CSS"
-                                progress={80}
-                            />
-                            <Skills 
-                                skill="Javascript"
-                                progress={50}
-                            />
+                                progress={80}/>
                             <Skills 
                                 skill="React"
-                                progress={60}
-                            />
+                                progress={60}/>
                             <Skills 
-                                skill="Boostrap"
-                                progress={60}
-                            />
+                                skill="Javascript"
+                                progress={60}/>
+                            <Skills 
+                                skill="ThreeJS"
+                                progress={60}/>
                             <Skills 
                                 skill="Java"
-                                progress={40}
-                            />
+                                progress={40}/>
                             <Skills 
                                 skill="Python"
-                                progress={20}
-                            />
+                                progress={40}/>
                             <Skills 
                                 skill="JSON"
-                                progress={30}
-                            />
+                                progress={30}/>
                             <Skills 
                                 skill="PHP"
-                                progress={30}
-                            />
+                                progress={30}/>
                             
                     </Cell>
                 </Grid>

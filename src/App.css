@@ -1,4 +1,7 @@
 /* Landing page css */
+.drawer-color .d {
+
+}
 
 .header-color {
   background: #000000;
@@ -17,10 +20,22 @@
   background: #000000;  
   background: -webkit-linear-gradient(to left, #434343, #000000); 
   background: linear-gradient(to left, #434343, #000000); 
+  height: 100%;
 }
 
 .project-grid {
   display: flex;
+}
+
+.side-nav {
+  background: #000000;  
+  background: -webkit-linear-gradient(to left, #434343, #000000); 
+  background: linear-gradient(to left, #434343, #000000); 
+  height: 100%;
+  opacity: 0.9;
+  text-align: center;
+  border: whitesmoke solid 1px;
+  border-radius: 10px;
 }
 
 .avatar-img {
@@ -161,13 +176,15 @@
   background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.instaFeed {
+.insta-feed {
   max-height: 500px;
-  width: auto;
+  max-width: auto;
+  min-height: 180px;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 5em;
 }
+
 
 /* Media querys*/
 

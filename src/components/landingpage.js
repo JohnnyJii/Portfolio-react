@@ -15,7 +15,7 @@ class LandingPage extends Component {
                         <div className="avatar-img-text">
                             <h1>Web developer</h1>    
                         <hr/>
-                        <p>HTML/CSS | Javascript | Bootstrap | jQuery | React | Java | Python </p>
+                        <p> Javascript | Bootstrap | jQuery | React | Java | Json | ThreeJS</p>
                         </div>  
                         <div className="social-links">
                             {/* Linkedin, Facebook, Github, Instagram links */}
